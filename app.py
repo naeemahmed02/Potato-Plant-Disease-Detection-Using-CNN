@@ -72,14 +72,11 @@ class webapp:
         st.markdown(
             """
             <h2>Connect with us:</h2>
-            <a href="https://www.linkedin.com/your_page" target="_blank">
+            <a href="https://www.linkedin.com/in/naeem02/" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
             </a>
-            <a href="https://www.github.com/your_page" target="_blank">
+            <a href="https://github.com/naeemahmed02" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
-            </a>
-            <a href="https://www.kaggle.com/your_page" target="_blank">
-                <img src="https://img.icons8.com/color/48/000000/kaggle.png"/>
             </a>
             """,
             unsafe_allow_html=True  # Allow HTML rendering

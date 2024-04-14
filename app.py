@@ -62,7 +62,7 @@ class webapp:
                 st.write(f"Prediction: {predicted_class}")
                 st.write(f"Confidence: {confidence:.2f}%")
             else:
-                st.write("Prediction confidence is below 80%. Please try another image.")
+                st.write("I am unsure please try again.")
 
     def about(self):
         st.title("About")

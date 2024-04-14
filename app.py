@@ -86,7 +86,7 @@ class webapp:
         )
 
 def main():
-    model_path = 'plant_village_model11.h5'
+    model_path = 'plant_village_model.h5'
     class_names = ['Early Blight', 'Healthy', 'Late Blight']
     classifier = Detect(model_path, class_names)
     app = webapp(classifier)
